@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dimasdwicahya.uts.HasilNomorDua"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesanan TIket Bandung -> Surabaya"
+        android:textAlignment="center"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nama penumpang"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:id="@+id/nama"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="untuk"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:id="@+id/penumpang"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="penumpang"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seharga"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:id="@+id/harga"
+        />
+
+</LinearLayout>

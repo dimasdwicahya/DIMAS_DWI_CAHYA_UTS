@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UTS</string>
+    <string-array name="label_array">
+        <item>pilih salah satu</item>
+        <item>GoJek</item>
+        <item>GoCar</item>
+        <item>GoSend</item>
+        <item>GoBox</item>
+    </string-array>
+</resources>
